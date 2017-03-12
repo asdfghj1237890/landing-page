@@ -176,12 +176,34 @@ a:focus, a:hover {
 }
 
 .content-section {
-    padding-top: 200px
+    padding-top: 50px
 }
 
 .contact-section {
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/map-image.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover
+}
+.about-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/map-image.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover
+}
+.todo-section {
+    width: 100%;
+    padding: 50px 0;
     color: #fff;
     background: url(../img/map-image.png) no-repeat center center scroll;
     background-color: #000;
@@ -199,14 +221,14 @@ a:focus, a:hover {
 
 @media (min-width:767px) {
     .content-section {
-        padding-top: 250px
+        padding-top: 50px
     }
     .contact-section {
         padding: 100px 0
     }
     #map {
         height: 350px;
-        margin-top: 250px
+        margin-top: 10px
     }
 }
 
@@ -307,7 +329,8 @@ section#contact .form-control:focus {
     box-shadow: none
 }
 section#contact .text-danger {
-    color: #e74c3c
+    color: #e74c3c;
+    text-align: left
 }
 section#contact :-moz-placeholder {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
