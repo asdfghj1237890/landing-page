@@ -57,7 +57,6 @@ a.active, a:active, a:focus, a:hover  {
 #mainNav .navbar-toggler {
     color: #fff;
     font-size: 14px;
-    background-color: #fed136;
     border: 1px solid #fff;
     padding: 11px
 }
@@ -98,11 +97,11 @@ a.active, a:active, a:focus, a:hover  {
 }
 
 #mainNav .navbar-nav a.nav-item.active:hover {
-    color: #fed136
+    color: #ff9933
 }
 
 #mainNav .container .navbar-nav .nav-item .nav-link.active, #mainNav .container .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136
+    color: #ff9933
 }
 
 @media (min-width:768px) {
