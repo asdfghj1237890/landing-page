@@ -41,7 +41,7 @@ a {
     transition: all .2s ease-in-out
 }
 
-a:focus, a:hover {
+a.active, a:active, a:focus, a:hover  {
     text-decoration: none;
     color: #1d9b6c
 }
@@ -57,12 +57,17 @@ a:focus, a:hover {
 #mainNav .navbar-toggler {
     color: #fff;
     font-size: 14px;
+    background-color: #fed136;
     border: 1px solid #fff;
     padding: 11px
 }
 
 #mainNav .navbar-brand {
     font-weight: 700
+}
+
+#mainNav .container .navbar-brand.active, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:hover {
+    color: #fec503
 }
 
 #mainNav a {
@@ -82,7 +87,7 @@ a:focus, a:hover {
     background-color: transparent
 }
 
-#mainNav .navbar-nav a.nav-item:active, #mainNav .navbar-nav a.nav-item:focus {
+#mainNav .navbar-nav a.nav-item:active, #mainNav .navbar-nav a.nav-item:focus , #mainNav .navbar-nav a.nav-item:hover{
     outline: 0;
     background-color: transparent
 }
@@ -93,7 +98,11 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-nav a.nav-item.active:hover {
-    color: #fff
+    color: #fed136
+}
+
+#mainNav .container .navbar-nav .nav-item .nav-link.active, #mainNav .container .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136
 }
 
 @media (min-width:768px) {
@@ -216,7 +225,7 @@ a:focus, a:hover {
 .todo-section{
     width: 100%;
     padding: 50px 0;
-    
+
 }
 
 .timeline {
