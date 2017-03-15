@@ -46,6 +46,7 @@ a.active, a:active, a:focus, a:hover  {
     color: #1d9b6c
 }
 
+
 #mainNav {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
@@ -152,13 +153,16 @@ a.active, a:active, a:focus, a:hover  {
 @media (min-width:768px) {
     .intro {
         height: 100%;
-        padding: 0
+        padding-top: 9rem;
     }
     .intro .intro-body .brand-heading {
         font-size: 100px
     }
     .intro .intro-body .intro-text {
         font-size: 22px
+    }
+    .covers{
+        width:50%
     }
 }
 

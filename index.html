@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>iLMS++ NTHU - New Evolution</title>
+    <title>iLMS+ NTHU - New Evolution</title>
 
     <!-- Favicon and touch icons -->
     <link type="image/x-icon" href="img/icon.gif" rel="icon" />
@@ -50,7 +50,8 @@
             }
         }
     </style>
-
+    <!-- coverflow CSS -->
+    <link rel="stylesheet" href="coverflow/css/style.css">
 </head>
 
 <body id="page-top">
@@ -61,7 +62,7 @@
             Menu <i class="fa fa-bars"></i>
         </button>
         <div class="container">
-            <a class="navbar-brand page-scroll" href="#page-top">iLMS++</a>
+            <a class="navbar-brand page-scroll" href="#page-top">iLMS+</a>
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -79,12 +80,44 @@
     </nav>
 
     <!-- Intro Header -->
+    <header>  </header>
     <header class="intro">
         <div class="intro-body">
             <div class="container">
+
                 <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <h1 class="brand-heading">iLMS++</h1>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div id="coverflow">
+                            <div class="covers">
+                                <ul>
+                                    <li>
+                                        <div class="imgdiv">
+                                            <a>
+                                                <img src="coverflow/img/Chatroom.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="text">
+
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="imgdiv">
+                                            <a>
+                                                <img src="coverflow/img/Courses.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="text">
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="brand-heading">iLMS+</h1>
                         <p class="intro-text">一個為學生而設的加強版iLMS
                             <br>Android & iOS
                             <br>
@@ -94,17 +127,19 @@
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
     </header>
+
 
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div id="about-section" class="about-section">
             <div class="row">
                 <div class="col-lg-8 offset-md-2">
-                    <h2>About iLMS++</h2>
-                    <p>iLMS++是一個建基於<a href="http://lms.nthu.edu.tw">學校iLMS系統</a>而做出來的APP</p>
+                    <h2>About iLMS+</h2>
+                    <p>iLMS+是一個建基於<a href="http://lms.nthu.edu.tw">學校iLMS系統</a>而做出來的APP</p>
                     <p> 在學校很多老師正在將課堂資訊從Moodle移去iLMS的情況下<br>我們希望這個APP可以加強iLMS的便利性</p>
                     <h7>我們不會收集任何個人帳號資料，所有個人帳號資料均儲存於你個人裝置<br>APP顯示內容均為APP根據網頁爬蟲而所得</h7>
                 </div>
@@ -229,7 +264,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; iLMS++ in NTHU 2017</p>
+            <p>Copyright &copy; iLMS+ in NTHU 2017</p>
         </div>
     </footer>
 
@@ -244,6 +279,12 @@
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="coverflow/js/coverflow.min.js"></script>
+    <script>
+        $coverflow = $("#coverflow").coverflow({
+            "path": "coverflow/"
+        });
+    </script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXNdkMbthrcMLzroU-tE4_yQGRkspSWko&sensor=false"></script>
