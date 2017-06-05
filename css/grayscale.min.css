@@ -128,7 +128,7 @@ a.active, a:active, a:focus, a:hover  {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #f0ad4e;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -143,7 +143,7 @@ a.active, a:active, a:focus, a:hover  {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px
+    font-size: 30px
 }
 
 .intro .intro-body .intro-text {
@@ -156,7 +156,7 @@ a.active, a:active, a:focus, a:hover  {
         padding-top: 9rem;
     }
     .intro .intro-body .brand-heading {
-        font-size: 100px
+        font-size: 45px
     }
     .intro .intro-body .intro-text {
         font-size: 22px
@@ -424,6 +424,11 @@ footer span.copyright, footer ul.quicklinks {
     margin-top: 100px
 }
 
+#facebook-page{
+  padding: 50px 18px;
+  margin-left: 0
+}
+
 @media (min-width:767px) {
     .content-section {
         padding-top: 50px
@@ -434,6 +439,19 @@ footer span.copyright, footer ul.quicklinks {
     #map {
         height: 350px;
         margin-top: 10px
+    }
+    #facebook-page{
+      width: 100%;
+      padding: 50px 0;
+      margin-left: 27%
+    }
+}
+
+@media (min-width:992px) {
+    #facebook-page{
+      width: 100%;
+      padding: 50px 0;
+      margin-left: 41%
     }
 }
 
