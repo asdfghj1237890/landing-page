@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
+
 .is-countdown{
   padding-top: 1rem;
   padding-bottom: 0;
@@ -29,36 +30,37 @@ h1, h2, h3, h4, h5, h6 {
   padding:0;
 }
 .countdown-section{
-  margin-right:3vh;
+  margin-right:1vh;
   margin-top:1rem;
-  margin-bottom:1rem;
-
+  margin-bottom:0;
 }
 .countdown-amount {
-  font-size: 80px;
+  font-size: 30px;
   line-height:80%;
   font-weight:700;
   font-family:'Montserrat',monospace;
 }
 .countdown-period {
-  font-size:24px;
+  font-size:18px;
   line-height:100%;
 }
 .countdown-section:nth-child(3):before{
+  display:table;
+  content:"";
 }
 .countdown-section:nth-child(3),.countdown-section:nth-child(4){
 }
 .countdown-section:nth-child(3) .countdown-amount {
-  font-size: 40px;
+  font-size: 16px;
 }
 .countdown-section:nth-child(4) .countdown-amount {
-  font-size: 40px;
+  font-size: 16px;
 }
 .countdown-section:nth-child(3) .countdown-period {
-  font-size:16px;
+  font-size:10px;
 }
 .countdown-section:nth-child(4) .countdown-period {
-  font-size:16px;
+  font-size:10px;
 }
 
 p {
@@ -72,6 +74,38 @@ p {
         margin: 0 0 35px;
         font-size: 18px;
         line-height: 1.6
+    }
+
+    .countdown-section{
+      margin-right:3vh;
+      margin-top:1rem;
+      margin-bottom:1rem;
+    }
+    .countdown-amount {
+      font-size: 80px;
+      line-height:80%;
+      font-weight:700;
+      font-family:'Montserrat',monospace;
+    }
+    .countdown-period {
+      font-size:24px;
+      line-height:100%;
+    }
+    .countdown-section:nth-child(3):before{
+    }
+    .countdown-section:nth-child(3),.countdown-section:nth-child(4){
+    }
+    .countdown-section:nth-child(3) .countdown-amount {
+      font-size: 40px;
+    }
+    .countdown-section:nth-child(4) .countdown-amount {
+      font-size: 40px;
+    }
+    .countdown-section:nth-child(3) .countdown-period {
+      font-size:16px;
+    }
+    .countdown-section:nth-child(4) .countdown-period {
+      font-size:16px;
     }
 }
 
