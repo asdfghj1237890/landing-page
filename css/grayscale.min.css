@@ -143,12 +143,14 @@ a.active, a:active, a:focus, a:hover  {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 30px
+    font-size: 30px;
+    padding-top: 7rem;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px
+    font-size: 18px;
     color: #00c5ff;
+    padding-top: 14rem;
 }
 
 @media (min-width:768px) {
@@ -160,7 +162,9 @@ a.active, a:active, a:focus, a:hover  {
         font-size: 45px
     }
     .intro .intro-body .intro-text {
-        font-size: 22px
+        font-size: 22px;
+        color: #00c5ff;
+        padding-top: 0rem;
     }
     .covers{
         width:50%
