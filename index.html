@@ -210,6 +210,7 @@
 
     <!-- Footer -->
     <footer>
+        <div id="widget-div"></div>
         <div class="container text-center">
             <p>Copyright &copy; Ingress 澳門藍軍</p>
             <p>Photo Credit &copy; Ar Tou</p>
@@ -249,7 +250,13 @@
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script>
+      {"parsetags": "explicit"}
+      function renderWidget() {
+        gapi.post.render("widget-div", {'href' : 'https://plus.google.com/112967347084599131948/posts/7EKPSZX1oLi'} );
+      }
+    </script>
 
 </body>
 
